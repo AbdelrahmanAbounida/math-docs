@@ -1,215 +1,100 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
-  "name": "Master Software Engineering Plan",
+  "theme": "mint",
+  "name": "Math Docs",
   "colors": {
-    "primary": "#D99C33",
-    "light": "#E5B04A",
-    "dark": "#B8811F"
+    "primary": "#2563EB",
+    "light": "#3B82F6",
+    "dark": "#1D4ED8"
   },
-  "favicon": "/logos/favicon1.ico",
+  "favicon": "/logos/favicon.ico",
   "logo": {
-    "light": "/logos/logo.png",
-    "dark": "/logos/logo.png"
+    "light": "/logos/logo2.png",
+    "dark": "/logos/logo2.png"
   },
   "navbar": {
     "links": [
       {
         "label": "GitHub",
-        "href": "https://github.com/AbdelrahmanAbounida/SWE-Plan"
+        "href": "https://github.com/AbdelrahmanAbounida/math-docs"
       }
     ]
   },
   "navigation": {
     "tabs": [
       {
-        "tab": "Plan",
+        "tab": "Home",
         "pages": ["index"]
       },
       {
-        "tab": "DSA",
+        "tab": "Probability",
         "groups": [
           {
-            "group": "Foundations",
-            "pages": [
-              "dsa/introduction",
-              "dsa/time-complexity",
-              "dsa/recursion"
-            ]
-          },
-          {
-            "group": "Core Data Structures",
-            "pages": [
-              "dsa/arrays-strings",
-              "dsa/linked-list",
-              "dsa/stack-queue",
-              "dsa/hashmap-set",
-              "dsa/trees",
-              "dsa/heap",
-              "dsa/graphs"
-            ]
-          },
-          {
-            "group": "Algorithms",
-            "pages": [
-              "dsa/sorting-searching",
-              "dsa/binary-search",
-              "dsa/sliding-window",
-              "dsa/two-pointers",
-              "dsa/backtracking",
-              "dsa/greedy",
-              "dsa/dynamic-programming"
-            ]
+            "group": "Probability",
+            "pages": ["probability/introduction"]
           }
         ]
       },
       {
-        "tab": "System Design",
+        "tab": "Statistics",
         "groups": [
           {
-            "group": "Fundamentals",
-            "pages": [
-              "system-design/introduction",
-              "system-design/scalability",
-              "system-design/load-balancing",
-              "system-design/caching",
-              "system-design/cap-theorem"
-            ]
-          },
-          {
-            "group": "Distributed Systems",
-            "pages": [
-              "system-design/replication",
-              "system-design/sharding",
-              "system-design/consistency-models",
-              "system-design/message-queues",
-              "system-design/consensus",
-              "system-design/mapreduce"
-            ]
-          },
-          {
-            "group": "Design Patterns",
-            "pages": [
-              "system-design/api-design",
-              "system-design/event-driven-architecture",
-              "system-design/microservices",
-              "system-design/observability",
-              "system-design/rate-limiting",
-              "system-design/search-systems"
-            ]
+            "group": "Statistics",
+            "pages": ["statistics/introduction"]
           }
         ]
       },
       {
-        "tab": "Repo Investigation",
+        "tab": "Logic",
         "groups": [
           {
-            "group": "Fundamentals",
-            "pages": ["repos/intro"]
+            "group": "Logic",
+            "pages": ["logic/introduction"]
           }
         ]
       },
       {
-        "tab": "Computer Science",
+        "tab": "Proof",
         "groups": [
           {
-            "group": "Operating Systems",
-            "pages": [
-              "cs/os-process-vs-thread",
-              "cs/os-concurrency",
-              "cs/os-memory-management",
-              "cs/os-deadlocks",
-              "cs/os-scheduling"
-            ]
-          },
-          {
-            "group": "Networking",
-            "pages": [
-              "cs/tcp-vs-udp",
-              "cs/http-https",
-              "cs/dns",
-              "cs/rest-vs-grpc",
-              "cs/latency-vs-throughput"
-            ]
+            "group": "Proof",
+            "pages": ["proof/introduction"]
           }
         ]
       },
       {
-        "tab": "Databases",
+        "tab": "Algebra",
         "groups": [
           {
-            "group": "Core Concepts",
-            "pages": [
-              "database/introduction",
-              "database/indexes",
-              "database/transactions",
-              "database/isolation-levels",
-              "database/normalization"
-            ]
-          },
-          {
-            "group": "SQL & NoSQL",
-            "pages": [
-              "database/sql",
-              "database/query-optimization",
-              "database/nosql",
-              "database/data-modeling",
-              "database/replication-sharding"
-            ]
+            "group": "Algebra",
+            "pages": ["algebra/introduction"]
           }
         ]
       },
       {
-        "tab": "Languages & Engineering",
+        "tab": "Calculus & Analysis",
         "groups": [
           {
-            "group": "Python",
-            "pages": [
-              "languages/python-fundamentals",
-              "languages/python-oop",
-              "languages/python-concurrency",
-              "languages/python-testing"
-            ]
-          },
+            "group": "Calculus & Analysis",
+            "pages": ["calculus-analysis/introduction"]
+          }
+        ]
+      },
+      {
+        "tab": "Optimization",
+        "groups": [
           {
-            "group": "TypeScript & Frontend",
-            "pages": [
-              "languages/typescript-fundamentals",
-              "languages/react-core",
-              "languages/browser-internals",
-              "languages/web-performance"
-            ]
-          },
+            "group": "Optimization",
+            "pages": ["optimization/introduction"]
+          }
+        ]
+      },
+      {
+        "tab": "Others",
+        "groups": [
           {
-            "group": "Rust",
-            "pages": [
-              "languages/rust-fundamentals",
-              "languages/rust-ownership",
-              "languages/rust-concurrency"
-            ]
-          },
-          {
-            "group": "Engineering Practices",
-            "pages": [
-              "engineering/clean-code",
-              "engineering/testing",
-              "engineering/debugging",
-              "engineering/git",
-              "engineering/ci-cd",
-              "engineering/docker-basics",
-              "engineering/linux-unix-basics",
-              "engineering/shell-scripting",
-              "engineering/api-design",
-              "engineering/security-basics"
-            ]
-          },
-          {
-            "group": "Cloud & Infrastructure",
-            "pages": [
-              "cloud/gcp-fundamentals",
-              "cloud/aws-basics",
-              "cloud/serverless"
-            ]
+            "group": "Others",
+            "pages": ["others/introduction"]
           }
         ]
       }
@@ -217,7 +102,7 @@
   },
   "footer": {
     "socials": {
-      "github": "https://github.com/AbdelrahmanAbounida/SWE-Plan"
+      "github": "https://github.com/AbdelrahmanAbounida/math-docs"
     }
   }
 }
