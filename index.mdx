@@ -1,9 +1,281 @@
 ---
-title: SWE  Plan
-icon: road
+title: Math  Plan
+icon: square-root-variable
 ---
 
-These are list of guides to get read
+I will try to record my math plan as i am studying differnet math branches, reading new books , papers , persons
 
-- [Software Engineering Interview Gudie](https://www.techinterviewhandbook.org/software-engineering-interview-guide/)
-- [User Advice](https://tomdane.com/blog/interviews.html)
+ISA , I will start with this plan
+This plan is organized to build mathematical foundations progressively, starting with fundamental reasoning skills and advancing to specialized topics relevant to AI engineering.
+
+## 1. General Courses
+
+I will start by Investigating different math branches with general courses
+
+1. Probability (Ross)
+2. Statistics (Wackerly)
+3. Algebra (Strang)
+4. Optimization (Boyd & Vandenberghe)
+5. Calculus
+6. Analysis
+7. Proof
+8. Logic
+9. Other Branches
+
+## Phase 1: Foundations (Weeks 1-16)
+
+### 1. Logic & Mathematical Reasoning
+
+**Book:** _Discrete Mathematics with Applications_ by Susanna Epp
+
+**Why this book:** Establishes the foundation for mathematical thinking, including propositional logic, predicate logic, and proof techniques. Essential before moving to formal proofs.
+
+**Focus areas:**
+
+- Logic and proof techniques
+- Sets and functions
+- Mathematical reasoning
+
+**Duration:** 4 weeks
+
+---
+
+### 2. Proof Techniques
+
+**Book:** _An Introduction to Abstract Mathematics_ by Robert J. Bond and William J. Keane
+
+**Why this book:** Bridges computational mathematics and abstract reasoning. Teaches you how to read, write, and construct rigorous mathematical proofs.
+
+**Focus areas:**
+
+- Direct and indirect proofs
+- Mathematical induction
+- Proof by contradiction
+
+**Duration:** 3 weeks
+
+---
+
+## Phase 2: Core Mathematics (Weeks 17-44)
+
+### 3. Calculus
+
+**Book:** _Calculus_ by James Stewart
+
+**Why this book:** Industry-standard text with excellent balance of theory and applications. Comprehensive coverage of single and multivariable calculus essential for ML/AI.
+
+**Focus areas:**
+
+- Limits and continuity
+- Differentiation and integration
+- Multivariable calculus
+- Vector calculus
+
+**Duration:** 8 weeks
+
+---
+
+### 4. Linear Algebra
+
+**Book:** _Linear Algebra and Its Applications_ by Gilbert Strang
+
+**Why this book:** Written specifically with applications in mind. Strang's approach emphasizes geometric intuition and computational aspects crucial for AI/ML. This is THE book for AI practitioners.
+
+**Focus areas:**
+
+- Vector spaces and linear transformations
+- Eigenvalues and eigenvectors
+- Matrix decompositions (SVD, QR, etc.)
+- Applications to data science
+
+**Duration:** 6 weeks
+
+---
+
+### 5. Probability
+
+**Book:** _A First Course in Probability_ by Sheldon Ross
+
+**Why this book:** Clear, rigorous treatment with excellent examples. Builds the foundation for statistics and probabilistic machine learning.
+
+**Focus areas:**
+
+- Probability axioms and combinatorics
+- Random variables and distributions
+- Expectation and variance
+- Limit theorems
+
+**Duration:** 5 weeks
+
+---
+
+### 6. Statistics
+
+**Book:** _Mathematical Statistics with Applications_ by Dennis Wackerly
+
+**Why this book:** Rigorous yet accessible treatment connecting probability theory to statistical inference. Essential for understanding ML algorithms.
+
+**Focus areas:**
+
+- Statistical inference
+- Hypothesis testing
+- Estimation theory
+- Sampling distributions
+
+**Duration:** 6 weeks
+
+---
+
+## Phase 3: Advanced Topics (Weeks 45-68)
+
+### 7. Real Analysis
+
+**Book:** _Analysis I_ by Terence Tao
+
+**Why this book:** Modern, clear exposition by a Fields Medalist. Builds rigorous foundations for calculus and provides intuition essential for optimization theory.
+
+**Focus areas:**
+
+- Real number system
+- Sequences and series
+- Continuity and differentiability
+- Riemann integration
+
+**Duration:** 8 weeks
+
+---
+
+### 8. Optimization
+
+**Book:** _Convex Optimization_ by Stephen Boyd and Lieven Vandenberghe
+
+**Why this book:** THE definitive text for convex optimization. Directly applicable to machine learning. Free online version available. Essential for deep learning and modern AI.
+
+**Focus areas:**
+
+- Convex sets and functions
+- Optimization problems
+- Duality theory
+- Applications to ML/AI
+
+**Duration:** 8 weeks
+
+---
+
+## Phase 4: Specialized Topics (Weeks 69-88)
+
+### 9. Abstract Algebra
+
+**Book:** _Algebra_ by Michael Artin
+
+**Why this book:** More accessible than Dummit & Foote while maintaining rigor. Excellent for understanding symmetries, transformations, and algebraic structures in AI.
+
+**Focus areas:**
+
+- Group theory
+- Ring theory
+- Linear algebra from abstract perspective
+- Applications
+
+**Duration:** 6 weeks
+
+---
+
+### 10. Additional Branches
+
+#### Topology
+
+**Book:** _Introduction to Topology_ by Robert Everist Greene (assuming "robert everist" refers to Greene)
+
+**Why:** Provides foundations for understanding manifolds and topological data analysis.
+
+**Duration:** 4 weeks
+
+---
+
+#### Combinatorics
+
+**Book:** _Applied Combinatorics_ by Alan Tucker
+
+**Why:** Essential for algorithm analysis and discrete optimization in AI.
+
+**Duration:** 4 weeks
+
+---
+
+#### Complex Analysis
+
+**Book:** _Fundamentals of Complex Analysis with Applications to Engineering and Science_ by Saff & Snider
+
+**Why:** Important for signal processing and certain advanced ML topics.
+
+**Duration:** 4 weeks
+
+---
+
+#### Graph Theory
+
+**Book:** _Graph Theory_ by Ronald Gould
+
+**Why:** Critical for network analysis, graph neural networks, and algorithm design.
+
+**Duration:** 2 weeks
+
+---
+
+## Study Strategy
+
+### Prerequisites Flow
+
+```
+Logic → Proof → Calculus → Analysis
+              ↓           ↓
+         Linear Algebra   Optimization
+              ↓           ↓
+         Probability → Statistics
+              ↓
+         Abstract Algebra
+```
+
+---
+
+## Priority Ranking for AI Engineering
+
+**Tier 1 (Critical - Master these):**
+
+1. Linear Algebra (Strang)
+2. Probability (Ross)
+3. Calculus (Stewart)
+4. Optimization (Boyd & Vandenberghe)
+
+**Tier 2 (Very Important):** 5. Statistics (Wackerly) 6. Analysis (Tao) 7. Logic (Epp)
+
+**Tier 3 (Useful for specialization):** 8. Proof (Bond & Keane) 9. Abstract Algebra (Artin) 10. Specialized topics based on research area
+
+---
+
+## Notes for AI Engineering Focus
+
+- **Deep Learning:** Emphasize Linear Algebra, Calculus, Optimization
+- **Probabilistic ML:** Emphasize Probability, Statistics, Analysis
+- **Reinforcement Learning:** Add optimization, graph theory
+- **NLP:** Abstract algebra (group theory for embeddings)
+- **Computer Vision:** Topology, geometry, linear algebra
+
+---
+
+## Estimated Timeline
+
+- **Total duration:** ~88 weeks (~21 months)
+- **Intensive study:** Can be compressed to 12-15 months
+- **Part-time study:** May extend to 24-30 months
+
+---
+
+## Additional Resources
+
+### Free Online Supplements
+
+- **Linear Algebra:** Gilbert Strang's MIT OpenCourseWare lectures
+- **Optimization:** Boyd's Stanford lectures (freely available)
+- **Probability:** MIT 6.041/6.431 materials

@@ -30,8 +30,100 @@
         "tab": "Probability",
         "groups": [
           {
-            "group": "Probability",
-            "pages": ["probability/introduction"]
+            "group": "Foundations",
+            "pages": [
+              "probability/introduction",
+              "probability/sample-spaces-events",
+              "probability/probability-axioms",
+              "probability/counting-methods",
+              "probability/conditional-probability",
+              "probability/bayes-theorem",
+              "probability/independence",
+              "probability/inrto-distributions",
+              "probability/problems-v1"
+            ]
+          },
+          {
+            "group": "Random Variables",
+            "pages": [
+              "probability/random-variables-intro",
+              "probability/discrete-random-variables",
+              "probability/continuous-random-variables",
+              "probability/cumulative-distribution-functions",
+              "probability/random-vectors",
+              "probability/functions-of-random-variables"
+            ]
+          },
+          {
+            "group": "Expectations and Moments",
+            "pages": [
+              "probability/expected-value",
+              "probability/variance-standard-deviation",
+              "probability/moments",
+              "probability/covariance-correlation",
+              "probability/covariance-matrix",
+              "probability/conditional-expectation"
+            ]
+          },
+          {
+            "group": "Common Distributions",
+            "pages": [
+              "probability/overview-distribution",
+              "probability/discrete-distributions",
+              "probability/binomial-distribution",
+              "probability/multinomial-distribution",
+              "probability/bernoulli-binomial",
+              "probability/poisson-distribution",
+              "probability/geometric-negative-binomial",
+              "probability/continuous-distributions",
+              "probability/uniform-exponential",
+              "probability/normal-distribution",
+              "probability/gamma-beta-distributions",
+              "probability/multivariate-normal"
+            ]
+          },
+          {
+            "group": "Independence and Joint Distributions",
+            "pages": [
+              "probability/joint-distributions",
+              "probability/marginal-distributions",
+              "probability/conditional-distributions",
+              "probability/independence-random-variables",
+              "probability/sums-independent-rvs",
+              "probability/convolutions"
+            ]
+          },
+          {
+            "group": "Transformations",
+            "pages": [
+              "probability/transformation-technique",
+              "probability/jacobian-method",
+              "probability/mgf-characteristic-functions",
+              "probability/joint-mgf",
+              "probability/cumulant-generating-function"
+            ]
+          },
+          {
+            "group": "Limit Theorems and Inequalities",
+            "pages": [
+              "probability/markov-inequality",
+              "probability/chebyshev-inequality",
+              "probability/jensen-inequality",
+              "probability/law-large-numbers",
+              "probability/central-limit-theorem",
+              "probability/convergence-concepts"
+            ]
+          },
+          {
+            "group": "Advanced Topics",
+            "pages": [
+              "probability/order-statistics",
+              "probability/quantiles",
+              "probability/indicator-functions",
+              "probability/kullback-leibler-divergence",
+              "probability/zero-probability-events",
+              "probability/rigorous-conditional-probability"
+            ]
           }
         ]
       },
