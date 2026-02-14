@@ -3,7 +3,51 @@ title: Sample Space & Events
 icon: check-circle
 ---
 
-Here we need to talk about
+Sample space is the set of all possible outcomes of a random experiment; it may be discrete or continuous.
 
-- Sample Space
-- Set Theory
+Events are subsets of the sample space, and they represent the questions or conditions we are interested in within that space.
+
+A probability measure assigns a numerical value to each event (satisfying the axioms of probability).
+
+A random variable is a measurable function from the sample space to the real numbers; it does not arise directly from the probability measure, but is defined on the probability space.
+
+The probability distribution is the induced measure of a random variable on the real line (or another target space). It describes how probability mass or density is allocated over the values that the random variable can take.
+
+Example
+we have 2 dice we wanna through so
+
+- sample space will be 6x6 = 36 results = `{(1,1),(1,2),...,(6,6)}`
+- Event will be a question like (outcome has sum = 7) whici is a subset of the space = `{(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)}`
+- probability measure gives a number to each event so for above Event (sum =7) call it A > P(A) = 6/36 = 1/6
+- Random Variable X: Ω → ℝ (let say sum of both dice)
+  X(1,1) = 2
+  X(1,2) = 3
+  X(2,3) = 5
+  X(3,4) = 7
+  X(6,6) = 12
+  ...
+- Probability Distribution
+  | X (Sum) | Possible Outcomes | Count | ( P(X = x) ) |
+  | ------- | ---------------------------------------- | ----- | -------------- |
+  | 2 | (1,1) | 1 | 1/36 |
+  | 3 | (1,2), (2,1) | 2 | 2/36 |
+  | 4 | (1,3), (2,2), (3,1) | 3 | 3/36 |
+  | 5 | (1,4), (2,3), (3,2), (4,1) | 4 | 4/36 |
+  | 6 | (1,5), (2,4), (3,3), (4,2), (5,1) | 5 | 5/36 |
+  | 7 | (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) | 6 | 6/36 ← Highest |
+  | 8 | (2,6), (3,5), (4,4), (5,3), (6,2) | 5 | 5/36 |
+  | 9 | (3,6), (4,5), (5,4), (6,3) | 4 | 4/36 |
+  | 10 | (4,6), (5,5), (6,4) | 3 | 3/36 |
+  | 11 | (5,6), (6,5) | 2 | 2/36 |
+  | 12 | (6,6) | 1 | 1/36 |
+
+in abstract
+
+- we can say random variable is a representation of group of events under specific category let say we have events
+  A (sum of nerds = 7)
+  B (sum of nerds = 8)
+  ...
+  so many so we can categorize them all under specific category which is sum and here we could have a random variable X(sum of nerds)
+  so its a mathematical representation of uncertinity
+  Random variables allow us to represent many related events under one mathematical framework, but not every event naturally fits into a single random variable
+  so outcome is insteaed of writiing 10s of events merge them all in one mathematical condition
